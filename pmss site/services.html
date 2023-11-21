@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Our Services</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.unsplash.com/photo-1531346878377-a5be20888e57?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .services-title {
+            margin-bottom: 2rem;
+            padding-left: 1.75rem;
+            background-color: #34495E;
+            color: white;
+            display: inline-block;
+            padding-right: 1.75rem;
+        }
+
+        .mb-8 {
+            padding: 2rem;
+            margin: 1rem 1.5rem;
+            border-radius: 1.5rem;
+            width: 533px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .mb-8:hover {
+            transform: scale(1.05);
+        }
+
+        .recruitment-box {
+            background-color: rgba(68, 197, 131, 0.9);
+            border: 3px solid rgb(93, 63, 211);
+        }
+
+        .outplacement-box {
+            background-color: #DDA0DD;
+            border: 3px solid rgb(93, 63, 211);
+        }
+
+        .recruit-train-box {
+            background-color: rgba(52, 144, 220, 0.9);
+            border: 3px solid rgb(93, 63, 211);
+        }
+
+        .online-exam-box {
+            background-color: #FA8072;
+            border: 3px solid rgb(93, 63, 211);
+        }
+
+        .services-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 2rem;
+            margin-left: 1.5rem;
+        }
+
+        .contact-container {
+            margin-top: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-top: 1px solid #fff;
+        }
+
+        @media (max-width: 768px) {
+            .mb-8 {
+                margin-right: 0;
+                margin-left: 0;
+            }
+
+            .services-container {
+                justify-content: center;
+                align-items: center;
+                margin-top: 0;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="text-3xl font-semibold services-title">Our Services</h1>
+
+    <div class="services-container">
+        <div class="mb-8 recruitment-box">
+            <h2 class="text-2xl font-medium mb-4"> Recruitment & Temp</h2>
+            <p>When your business had extra hand on projects, hiring subcon is much more achievable than hiring full-time employees. We, as a Founder, will be fully responsible for all legal compliances.</p>
+        </div>
+
+        <div class="mb-8 outplacement-box">
+            <h2 class="text-2xl font-medium mb-4"> Outplacement</h2>
+            <p>With the rapid advances in modern technology, more jobs and new opportunities that would have seemed like science fiction a few years ago are becoming a reality. However, as we evolve, a lot of jobs people used to do back in the day are becoming obsolete. Companies have to take tough economic decisions of layoffs. We provide placement services to these laid-off employees through our reskilling programs in association with our training partners.</p>
+        </div>
+
+        <div class="mb-8 recruit-train-box">
+            <h2 class="text-2xl font-medium mb-4"> Recruit Train & Deploy</h2>
+            <p>Our team helps organizations recruit the right talent. Resource fulfillment mandates are executed considering organization size, culture, and other attributes.</p>
+        </div>
+
+        <div class="mb-8 online-exam-box">
+            <h2 class="text-2xl font-medium mb-4"> Online Exam</h2>
+            <p>We conduct online tests based on the requirements of our clients in partnership with Scholars Merit Online Assessments. Online exams for fresher & lateral hiring to measure cognitive, aptitude, and logic of the candidates. The platform provides flexibility to use your own exam or our question bank to prepare exams as per requirements.</p>
+        </div>
+    </div>
+
+    <footer class="flex flex-col items-center justify-center bg-gray-800 text-white text-center">
+        <include src="contact.html"></include>
+  
+        <!-- Office Contact Information -->
+        <div class="mt-12 p-8 w-full max-w-4xl">
+            <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+            <p>Email: <a href="mailto: neeraj@pmssindia.com">neeraj@pmssindia.com</a></p>
+            <p>Email: <a href="mailto: anubhav@pmssindia.com">anubhav@pmssindia.com</a></p>
+            <p>Phone: 0120-2427007, 0120-4248221, Mob: 9811207044</p>
+            <p>Address: BS-1514 Plot No-C-1A, Galaxy Diamond Plaza, Sector-4, Greater Noida West, Gautam Buddha Nagar,
+                Uttar Pradesh, Noida-201009</p>
+        </div>
+    
+        <!-- Social Media Links -->
+        <div class="flex space-x-4 mb-4">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn1.iconfinder.com/data/icons/social-media-2285/512/Colored_Facebook3_svg-256.png" alt="Facebook" class="w-6 h-6">
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-256.png" alt="Instagram" class="w-6 h-6">
+            </a>
+            <a href="https://www.linkedin.com/company/path-mentors-staffing-solution/" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-256.png" alt="LinkedIn" class="w-6 h-6">
+            </a>
+        </div>
+    
+        <!-- Copyright Information -->
+        <div class="py-4 text-gray-600">
+            &copy; 2023, All Rights Reserved.
+        </div>
+  
+    </footer>
+
+</body>
+
+</html>
+
+
